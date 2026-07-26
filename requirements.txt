@@ -1,3 +1,14 @@
+# Video Uploader - Python Dependencies
+# Compatible with Python 3.11+
+
+# Core GitHub API wrapper
 PyGithub==2.1.1
+
+# Environment variable management
 python-dotenv==1.0.0
+
+# HTTP client library (dependency of PyGithub, included for clarity)
 requests==2.31.0
+
+# Additional dependencies that may be needed
+urllib3>=1.26.0,<2.0.0
